@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Ui Kit Link -->
+    <link rel="stylesheet" href="css/uikit-rtl.css">
+    <!-- Spring Link -->
+    <link rel="stylesheet" href="css/spring.css">
+    <title>GCORP</title>
+</head>
+<body>
+<div class="uk-background-cover uk-height-viewport" style="background-image: url(img/base/login-tow.jpg)">
+    <div class="uk-container uk-position-center">
+        <div class="uk-card uk-card-default uk-card-body uk-align-center uk-border-rounded uk-box-shadow-medium" >
+            <form id="form-log" class="uk-grid-small" uk-grid>
+                <legend class="uk-legend uk-text-center handFont_faDimaTitr">ورود</legend>
+                <div class="uk-width-1-2@s">
+                    <div class="uk-margin">
+                        <label class="uk-form-label grey-text text-darken-1" for="form-user-id">نام کاربری</label>
+                        <div class="uk-form-controls">
+                            <input id="form-user-id" class="uk-input grey lighten-3 uk-border-rounded uk-box-shadow-medium" style="border: none" type="email" placeholder="لطفا نام کاربری خود را وارد نمایید">
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-1-2@s">
+                    <div class="uk-margin">
+                        <label class="uk-form-label grey-text text-darken-1" for="form-user-pass">رمز عبور</label>
+                        <div class="uk-form-controls">
+                            <input class="uk-input grey lighten-3 uk-border-rounded uk-box-shadow-medium" style="border: none" id="form-user-pass" type="password" placeholder="لطفا رمز عبور خود را وارد نمایید">
+                        </div>
+                    </div>
+                </div>
+              <div class="uk-width-1-1">
+                  <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                      <label><input class="uk-checkbox" type="checkbox" checked> لطفا مرا به خاطر بسپار</label>
+                  </div>
+              </div>
+                <div class="uk-width-1-2@s">
+                    <div class="uk-margin">
+                       <button class="uk-button uk-width-1-1 blue white-text uk-border-rounded uk-box-shadow-medium">ورود</button>
+                    </div>
+                </div>
+                <div class="uk-width-1-2@s">
+                    <div class="uk-margin">
+                        <a id="login-form" class="uk-width-1-1 uk-button pink white-text uk-border-rounded uk-box-shadow-medium">ثبت نام</a>
+                    </div>
+                </div>
+            </form>
+            <form id="form-sing" class="uk-grid-small" uk-grid>
+                <legend class="uk-legend uk-text-center handFont_faDimaTitr">ثبت نام</legend>
+                <div class="uk-width-1-2@s">
+                    <div class="uk-margin">
+                        <label class="uk-form-label grey-text text-darken-1" for="form-log-name">نام کاربری</label>
+                        <div class="uk-form-controls">
+                            <input id="form-log-name" class="uk-input grey lighten-3 uk-border-rounded uk-box-shadow-medium" style="border: none" type="email" placeholder="لطفا نام کاربری خود را وارد نمایید">
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-1-2@s">
+                    <div class="uk-margin">
+                        <label class="uk-form-label grey-text text-darken-1" for="form-log-tel">شماره تماس</label>
+                        <div class="uk-form-controls">
+                            <input class="uk-input grey lighten-3 uk-border-rounded uk-box-shadow-medium" style="border: none" id="form-log-tel" type="tel" placeholder="لطفا شماره تماس خود را وارد نمایید">
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-1-2@s">
+                    <div class="uk-margin">
+                        <label class="uk-form-label grey-text text-darken-1" for="form-log-pass">رمز عبور</label>
+                        <div class="uk-form-controls">
+                            <input id="form-log-pass" class="uk-input grey lighten-3 uk-border-rounded uk-box-shadow-medium" style="border: none" type="password" placeholder="لطفا رمز عبور خود را وارد نمایید">
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-1-2@s">
+                    <div class="uk-margin">
+                        <label class="uk-form-label grey-text text-darken-1" for="form-log-pass-try">تکرار رمز عبور</label>
+                        <div class="uk-form-controls">
+                            <input class="uk-input grey lighten-3 uk-border-rounded uk-box-shadow-medium" style="border: none" id="form-log-pass-try" type="password" placeholder="لطفا رمز عبور خود را مجددا وارد نمایید">
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-1-2@s uk-align-center">
+                    <div class="uk-margin">
+                        <button type="submit" class="uk-button uk-width-1-1 blue white-text uk-border-rounded uk-box-shadow-medium">ثبت نام</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Script  -->
+<script src="js/jquery.js"></script>
+<script src="js/uikit.min.js"></script>
+<script src="js/uikit-icons.min.js"></script>
+<script src="js/spring.js"></script>
+</body>
+</html>
